@@ -33,35 +33,3 @@ print("-"*100)
 print(type(doi))
 print("-"*100)
 print(doi)
-
-# doi=k[0]['data-url']
-# print(type(doi))
-# print(doi)
-# print(re.findall(r"10.+", doi))
-# print(k)
-
-
-
-
- 
-
-# r=requests.get("https://www.sciencedirect.com/search/advanced?qs=Rapid%20detection%20of%20Vibrio%20parahaemolyticus%20in%20raw%20oysters%20using%20immunomagnetic%20separation%20combined%20with%20loop-mediated%20isothermal%20amplification&show=25&sortBy=relevance")
-# print(r.encoding)
-# with open('test.html','wb') as f:
-#     f.write(r.content)
-# soup=BeautifulSoup(r.text,'lxml')
-# k=soup.find_all('h1')
-# print(k)
-
-
-# with open('test_html_cwb.html','wb') as f:
-# 	f.write(r.content)
-
-
-
-
-
-
-
-
-# print(soup.find_all('cite'))
